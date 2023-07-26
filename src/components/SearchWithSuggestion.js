@@ -64,7 +64,7 @@ const SearchWithSuggestion = ({keyword = '', minKeywordLength = 1}) => {
 
                         {isShowSuggestion && suggestions.map((suggest, index) =>
                             <div key={index} className="cursor-pointer py-2 px-3 hover:bg-slate-100">
-                                <p className="text-sm text-gray-500">{getHighlightedText(suggest.term)}</p>
+                                <a href={suggest.url} className="text-sm text-gray-500">{getHighlightedText(suggest.term)}</a>
                             </div>
                         )}
                         {collections.length > 0 && <div className="flex flex-row flex-auto justify-between cursor-pointer py-2 px-2 bg-slate-100"
