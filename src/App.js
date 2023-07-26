@@ -32,7 +32,7 @@ function App() {
                         </form>
                         <SearchWithSuggestion
                             keyword={searchKeyword}
-                            minKeywordLength={1}
+                            minKeywordLength={2}
                         />
                     </div>
                 </div>
