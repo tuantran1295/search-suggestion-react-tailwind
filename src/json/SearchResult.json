@@ -1,0 +1,225 @@
+[
+  {
+    "id": "64c0e88cd72f784dd08c592b",
+    "keyword": "t",
+    "suggestionTerms": [
+      {
+        "term": "black t-shirt",
+        "url": "#"
+      },
+      {
+        "term": "white t-shirt",
+        "url": "#"
+      },
+      {
+        "term": "red top",
+        "url": "#"
+      },
+      {
+        "term": "top bra",
+        "url": "#"
+      }
+    ],
+    "collections": [
+      {
+        "id": "64c0e88c6a005c86eb951416",
+        "title": "Tops",
+        "url": "#"
+      },
+      {
+        "id": "64c0e88c6a005c86eb951419",
+        "title": "Tests",
+        "url": "#"
+      }
+    ],
+    "products": [
+      {
+        "id": "64c0e88c364ce54b08a4c143",
+        "title": "Best Black T-Shirt",
+        "brand": "Dior",
+        "price": "$6.12",
+        "image": "https://picsum.photos/182/264"
+      },
+      {
+        "id": "64c0e88c6d42d3fbcbd3fb0d",
+        "title": "Woman White T-Shirt",
+        "brand": "Converse",
+        "price": "$15.36",
+        "image": "https://picsum.photos/182/264"
+      },
+      {
+        "id": "64c0e88ce6dce1726df4588d",
+        "title": "Trumpet Sleeve Top",
+        "brand": "Gucci",
+        "price": "$41.54",
+        "image": "https://picsum.photos/182/264"
+      }
+    ]
+  },
+  {
+    "id": "64c0e88c1d97532b1d594760",
+    "keyword": "to",
+    "suggestionTerms": [
+      {
+        "term": "red top",
+        "url": "#"
+      },
+      {
+        "term": "top bra",
+        "url": "#"
+      },
+      {
+        "term": "top long",
+        "url": "#"
+      },
+      {
+        "term": "cotton top",
+        "url": "#"
+      }
+    ],
+    "collections": [
+      {
+        "id": "64c0e88c1e773db0c3f98f7f",
+        "title": "Tops",
+        "url": "#"
+      },
+      {
+        "id": "64c0e88c1e773db0c3f98f78",
+        "title": "To You",
+        "url": "#"
+      }
+    ],
+    "products": [
+      {
+        "id": "64c0e88ce053c5faa1366f3e",
+        "title": "Satin Top",
+        "brand": "Forever 21",
+        "price": "$15.50",
+        "image": "https://picsum.photos/182/264"
+      },
+      {
+        "id": "64c0e88cf0f9a4b31eff9510",
+        "title": "Trumpet Sleeve Top",
+        "brand": "Gucci",
+        "price": "$41.54",
+        "image": "https://picsum.photos/182/264"
+      },
+      {
+        "id": "64c0e88cd23d9ba49e142ef4",
+        "title": "Open Shoulder Top",
+        "brand": "Louis Vutton",
+        "price": "$25.56",
+        "image": "https://picsum.photos/182/264"
+      }
+    ]
+  },
+  {
+    "id": "64c0e88c20be75f4ad4a48e4",
+    "keyword": "to",
+    "suggestionTerms": [
+      {
+        "term": "red top",
+        "url": "#"
+      },
+      {
+        "term": "top bra",
+        "url": "#"
+      },
+      {
+        "term": "top long",
+        "url": "#"
+      },
+      {
+        "term": "cotton top",
+        "url": "#"
+      }
+    ],
+    "collections": [
+      {
+        "id": "64c0e88c4b33a2ccb93d4e06",
+        "title": "Tops",
+        "url": "#"
+      },
+      {
+        "id": "64c0e88c4b33a2ccb93d4e16",
+        "title": "Top Teen",
+        "url": "#"
+      }
+    ],
+    "products": [
+      {
+        "id": "64c0e88c002f12e60abd7d1d",
+        "title": "Satin Top",
+        "brand": "Forever 21",
+        "price": "$15.50",
+        "image": "https://picsum.photos/182/264"
+      },
+      {
+        "id": "64c0e88c856d0f094ff4821c",
+        "title": "Trumpet Sleeve Top",
+        "brand": "Gucci",
+        "price": "$41.54",
+        "image": "https://picsum.photos/182/264"
+      },
+      {
+        "id": "64c0e88c8ced76fe45d4f885",
+        "title": "Open Shoulder Top",
+        "brand": "Louis Vutton",
+        "price": "$25.56",
+        "image": "https://picsum.photos/182/264"
+      }
+    ]
+  },
+  {
+    "id": "64c0e88cc1b664abc6e7cdd1",
+    "keyword": "top",
+    "suggestionTerms": [
+      {
+        "term": "cotton top",
+        "url": "#"
+      },
+      {
+        "term": "top sportwear",
+        "url": "#"
+      },
+      {
+        "term": "red top",
+        "url": "#"
+      },
+      {
+        "term": "green top",
+        "url": "#"
+      }
+    ],
+    "collections": [
+      {
+        "id": "64c0e88c1a348add035f1f85",
+        "title": "Tops",
+        "url": "#"
+      }
+    ],
+    "products": [
+      {
+        "id": "64c0e88c3a86d04831f86c58",
+        "title": "Satin Top",
+        "brand": "Forever 21",
+        "price": "$15.50",
+        "image": "https://picsum.photos/182/264"
+      },
+      {
+        "id": "64c0e88c4660812ce527fb73",
+        "title": "Black Cotton Top",
+        "brand": "Gucci",
+        "price": "$64.68",
+        "image": "https://picsum.photos/182/264"
+      },
+      {
+        "id": "64c0e88c85d72663e511f825",
+        "title": "Trumpet Sleeve Top",
+        "brand": "Gucci",
+        "price": "$41.54",
+        "image": "https://picsum.photos/182/264"
+      }
+    ]
+  }
+]
