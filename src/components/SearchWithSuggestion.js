@@ -1,5 +1,6 @@
 import {useEffect, useState} from "react";
 import searchResult from "../json/SearchResult.json"
+import {BiDownArrow, BiSolidUpArrow, BiUpArrow} from "react-icons/bi";
 
 const SearchWithSuggestion = ({keyword = '',minKeywordLength = 1}) => {
 
@@ -50,10 +51,11 @@ const SearchWithSuggestion = ({keyword = '',minKeywordLength = 1}) => {
 
                 {keyword.length >= minKeywordLength &&
                     <div className="max-h-[90vh] overflow-y-auto absolute mt-2 w-full rounded-md bg-white">
-                        <div className="cursor-pointer py-2 px-2 bg-slate-100"
+                        <div className="flex flex-row flex-auto justify-between cursor-pointer py-2 px-2 bg-slate-100"
                              onClick={toggleShowSuggest}
                         >
                             <p className="text-sm font-medium text-gray-300 uppercase">Suggestions</p>
+                            {isShowSuggestion ? <BiUpArrow className="text-gray-400"/> : <BiDownArrow className="text-gray-400"/>}
                         </div>
 
                         {isShowSuggestion && suggestions.map((suggest, index) =>
@@ -61,10 +63,11 @@ const SearchWithSuggestion = ({keyword = '',minKeywordLength = 1}) => {
                                 <p className="text-sm text-gray-500">{suggest.term}</p>
                             </div>
                         )}
-                        <div className="cursor-pointer py-2 px-2 bg-slate-100"
+                        <div className="flex flex-row flex-auto justify-between cursor-pointer py-2 px-2 bg-slate-100"
                              onClick={toggleShowCollect}
                         >
                             <p className="text-sm font-medium text-gray-300 uppercase">Collections</p>
+                            {isShowCollection ? <BiUpArrow className="text-gray-400"/> : <BiDownArrow className="text-gray-400"/>}
                         </div>
 
                         {isShowCollection && collections.map((collect, index) =>
@@ -72,10 +75,11 @@ const SearchWithSuggestion = ({keyword = '',minKeywordLength = 1}) => {
                                 <p className="text-sm text-gray-500">{collect.title}</p>
                             </div>
                         )}
-                        <div className="cursor-pointer py-2 px-2 bg-slate-100"
+                        <div className="flex flex-row flex-auto justify-between cursor-pointer py-2 px-2 bg-slate-100"
                              onClick={toggleShowProduct}
                         >
                             <p className="text-sm font-medium text-gray-300 uppercase">Products</p>
+                            {isShowProduct ? <BiUpArrow className="text-gray-400"/> : <BiDownArrow className="text-gray-400"/>}
                         </div>
 
                         {isShowProduct && products.map((product, index) =>
