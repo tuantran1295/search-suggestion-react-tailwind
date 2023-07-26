@@ -30,7 +30,12 @@ function App() {
                                 </span>
                             </div>
                         </form>
-
+                        {/*<input type="text"*/}
+                        {/*       placeholder="Search Product..."*/}
+                        {/*       onChange={(e) => {*/}
+                        {/*           setKeyword(e.target.value)*/}
+                        {/*       }}*/}
+                        {/*/>*/}
                         <SearchWithSuggestion
                             keyword={searchKeyword}
                             minKeywordLength={1}

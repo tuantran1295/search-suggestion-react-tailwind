@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import searchResult from "../json/SearchResult.json"
-import {BiDownArrow, BiSolidUpArrow, BiUpArrow} from "react-icons/bi";
+import {BiDownArrow, BiUpArrow} from "react-icons/bi";
 
 const SearchWithSuggestion = ({keyword = '',minKeywordLength = 1}) => {
 
@@ -45,6 +45,11 @@ const SearchWithSuggestion = ({keyword = '',minKeywordLength = 1}) => {
         })
     }
 
+    const getHighlightedText = (text) => {
+        const parts = text.split(new RegExp(`(${keyword})`, 'gi'));
+        return <span>{parts.map(part => part.toLowerCase() === keyword.toLowerCase() ? <b>{part}</b> : part)}</span>;
+    }
+
     return (
         <div className="translate-y-1/6">
             <div className="relative w-96 max-w-lg">
@@ -60,7 +65,7 @@ const SearchWithSuggestion = ({keyword = '',minKeywordLength = 1}) => {
 
                         {isShowSuggestion && suggestions.map((suggest, index) =>
                             <div key={index} className="cursor-pointer py-2 px-3 hover:bg-slate-100">
-                                <p className="text-sm text-gray-500">{suggest.term}</p>
+                                <p className="text-sm text-gray-500">{getHighlightedText(suggest.term)}</p>
                             </div>
                         )}
                         <div className="flex flex-row flex-auto justify-between cursor-pointer py-2 px-2 bg-slate-100"
@@ -72,7 +77,7 @@ const SearchWithSuggestion = ({keyword = '',minKeywordLength = 1}) => {
 
                         {isShowCollection && collections.map((collect, index) =>
                             <div key={index} className="cursor-pointer py-2 px-3 hover:bg-slate-100">
-                                <p className="text-sm text-gray-500">{collect.title}</p>
+                                <p className="text-sm text-gray-500">{getHighlightedText(collect.title)}</p>
                             </div>
                         )}
                         <div className="flex flex-row flex-auto justify-between cursor-pointer py-2 px-2 bg-slate-100"
@@ -89,7 +94,7 @@ const SearchWithSuggestion = ({keyword = '',minKeywordLength = 1}) => {
                                      alt="image-product"
                                 />
                                 <div className="cursor-pointer pt-2 pb-12 pl-0">
-                                    <p className="text-sm font-semibold text-gray-600">{product.title}</p>
+                                    <p className="text-sm font-semibold text-gray-600">{getHighlightedText(product.title)}</p>
                                     <p className="text-sm text-gray-500">{product.brand}</p>
                                     <p className="text-sm font-bold text-gray-800">{product.price}</p>
                                 </div>
