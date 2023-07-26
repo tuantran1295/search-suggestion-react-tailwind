@@ -1,6 +1,6 @@
 [
   {
-    "id": "64c0e88cd72f784dd08c592b",
+    "id": "64c103b5add541fb2d55eeda",
     "keyword": "t",
     "suggestionTerms": [
       {
@@ -22,33 +22,28 @@
     ],
     "collections": [
       {
-        "id": "64c0e88c6a005c86eb951416",
+        "id": "64c103b5dff0278ff5ad7e0c",
         "title": "Tops",
-        "url": "#"
-      },
-      {
-        "id": "64c0e88c6a005c86eb951419",
-        "title": "Tests",
         "url": "#"
       }
     ],
     "products": [
       {
-        "id": "64c0e88c364ce54b08a4c143",
+        "id": "64c103b52a569b4bbb08c9ae",
         "title": "Best Black T-Shirt",
         "brand": "Dior",
         "price": "$6.12",
         "image": "https://picsum.photos/182/264"
       },
       {
-        "id": "64c0e88c6d42d3fbcbd3fb0d",
+        "id": "64c103b5895828c5927e2e9b",
         "title": "Woman White T-Shirt",
         "brand": "Converse",
         "price": "$15.36",
         "image": "https://picsum.photos/182/264"
       },
       {
-        "id": "64c0e88ce6dce1726df4588d",
+        "id": "64c103b55edd7113c02c07fd",
         "title": "Trumpet Sleeve Top",
         "brand": "Gucci",
         "price": "$41.54",
@@ -57,7 +52,7 @@
     ]
   },
   {
-    "id": "64c0e88c1d97532b1d594760",
+    "id": "64c103b5f53a4d3b8ccda18e",
     "keyword": "to",
     "suggestionTerms": [
       {
@@ -79,33 +74,28 @@
     ],
     "collections": [
       {
-        "id": "64c0e88c1e773db0c3f98f7f",
+        "id": "64c103b5395398e7f2470521",
         "title": "Tops",
-        "url": "#"
-      },
-      {
-        "id": "64c0e88c1e773db0c3f98f78",
-        "title": "To You",
         "url": "#"
       }
     ],
     "products": [
       {
-        "id": "64c0e88ce053c5faa1366f3e",
+        "id": "64c103b57d9ef80c22ca5b9a",
         "title": "Satin Top",
         "brand": "Forever 21",
         "price": "$15.50",
         "image": "https://picsum.photos/182/264"
       },
       {
-        "id": "64c0e88cf0f9a4b31eff9510",
+        "id": "64c103b50a3bf1ba343b6697",
         "title": "Trumpet Sleeve Top",
         "brand": "Gucci",
         "price": "$41.54",
         "image": "https://picsum.photos/182/264"
       },
       {
-        "id": "64c0e88cd23d9ba49e142ef4",
+        "id": "64c103b5af7f3a7d8daeb982",
         "title": "Open Shoulder Top",
         "brand": "Louis Vutton",
         "price": "$25.56",
@@ -114,7 +104,7 @@
     ]
   },
   {
-    "id": "64c0e88c20be75f4ad4a48e4",
+    "id": "64c103b53b45611e5e4d5a6b",
     "keyword": "to",
     "suggestionTerms": [
       {
@@ -136,33 +126,28 @@
     ],
     "collections": [
       {
-        "id": "64c0e88c4b33a2ccb93d4e06",
+        "id": "64c103b52af48fb0f82909b6",
         "title": "Tops",
-        "url": "#"
-      },
-      {
-        "id": "64c0e88c4b33a2ccb93d4e16",
-        "title": "Top Teen",
         "url": "#"
       }
     ],
     "products": [
       {
-        "id": "64c0e88c002f12e60abd7d1d",
+        "id": "64c103b5373544c1078a2d8c",
         "title": "Satin Top",
         "brand": "Forever 21",
         "price": "$15.50",
         "image": "https://picsum.photos/182/264"
       },
       {
-        "id": "64c0e88c856d0f094ff4821c",
+        "id": "64c103b5b278f8b81cd4e95b",
         "title": "Trumpet Sleeve Top",
         "brand": "Gucci",
         "price": "$41.54",
         "image": "https://picsum.photos/182/264"
       },
       {
-        "id": "64c0e88c8ced76fe45d4f885",
+        "id": "64c103b5ee069cee526a44ab",
         "title": "Open Shoulder Top",
         "brand": "Louis Vutton",
         "price": "$25.56",
@@ -171,7 +156,7 @@
     ]
   },
   {
-    "id": "64c0e88cc1b664abc6e7cdd1",
+    "id": "64c103b52eb6d2cc567a4cb9",
     "keyword": "top",
     "suggestionTerms": [
       {
@@ -193,31 +178,291 @@
     ],
     "collections": [
       {
-        "id": "64c0e88c1a348add035f1f85",
+        "id": "64c103b5c3a53ed137a85dea",
         "title": "Tops",
         "url": "#"
       }
     ],
     "products": [
       {
-        "id": "64c0e88c3a86d04831f86c58",
+        "id": "64c103b5e8745f8440e36e47",
         "title": "Satin Top",
         "brand": "Forever 21",
         "price": "$15.50",
         "image": "https://picsum.photos/182/264"
       },
       {
-        "id": "64c0e88c4660812ce527fb73",
+        "id": "64c103b5c13796075e99056e",
         "title": "Black Cotton Top",
         "brand": "Gucci",
         "price": "$64.68",
         "image": "https://picsum.photos/182/264"
       },
       {
-        "id": "64c0e88c85d72663e511f825",
+        "id": "64c103b588a2a7cf8eeebd3b",
         "title": "Trumpet Sleeve Top",
         "brand": "Gucci",
         "price": "$41.54",
+        "image": "https://picsum.photos/182/264"
+      }
+    ]
+  },
+  {
+    "id": "64c103b5d4e3165f87421f70",
+    "keyword": "top ",
+    "suggestionTerms": [
+      {
+        "term": "cotton top",
+        "url": "#"
+      },
+      {
+        "term": "top sportwear",
+        "url": "#"
+      },
+      {
+        "term": "red top",
+        "url": "#"
+      },
+      {
+        "term": "green top",
+        "url": "#"
+      }
+    ],
+    "collections": [
+      {
+        "id": "64c103b5c552c9e03ba022c1",
+        "title": "Tops",
+        "url": "#"
+      }
+    ],
+    "products": [
+      {
+        "id": "64c103b5df59bfda54f2d7b1",
+        "title": "Satin Top",
+        "brand": "Forever 21",
+        "price": "$15.50",
+        "image": "https://picsum.photos/182/264"
+      },
+      {
+        "id": "64c103b5b60206550deede99",
+        "title": "Black Cotton Top",
+        "brand": "Gucci",
+        "price": "$64.68",
+        "image": "https://picsum.photos/182/264"
+      },
+      {
+        "id": "64c103b5c7f4c6f545d06ad9",
+        "title": "Trumpet Sleeve Top",
+        "brand": "Gucci",
+        "price": "$41.54",
+        "image": "https://picsum.photos/182/264"
+      }
+    ]
+  },
+  {
+    "id": "64c103b5feb6f10cc2229d60",
+    "keyword": "top t",
+    "suggestionTerms": [
+      {
+        "term": "top tank",
+        "url": "#"
+      },
+      {
+        "term": "top tank for woman",
+        "url": "#"
+      },
+      {
+        "term": "top tank for men",
+        "url": "#"
+      },
+      {
+        "term": "top teen",
+        "url": "#"
+      }
+    ],
+    "collections": [
+      {
+        "id": "64c103b59f4ee92e63005bdc",
+        "title": "Tops",
+        "url": "#"
+      }
+    ],
+    "products": [
+      {
+        "id": "64c103b5066e6e6377fa8ff3",
+        "title": "Essentials Women Slim-Fit Tank",
+        "brand": "GAP",
+        "price": "$5.50",
+        "image": "https://picsum.photos/182/264"
+      },
+      {
+        "id": "64c103b5882fec38c27a2bff",
+        "title": "Top Men Slim-Fit",
+        "brand": "Gucci",
+        "price": "$6.68",
+        "image": "https://picsum.photos/182/264"
+      },
+      {
+        "id": "64c103b5960cc385b2c73b9c",
+        "title": "Fruit of the Loom Girls Top",
+        "brand": "Gucci",
+        "price": "$25.54",
+        "image": "https://picsum.photos/182/264"
+      }
+    ]
+  },
+  {
+    "id": "64c103b5079b5508880a5307",
+    "keyword": "top ta",
+    "suggestionTerms": [
+      {
+        "term": "top tank with bra",
+        "url": "#"
+      },
+      {
+        "term": "top tank for woman",
+        "url": "#"
+      },
+      {
+        "term": "top tank for men",
+        "url": "#"
+      },
+      {
+        "term": "top tablets",
+        "url": "#"
+      }
+    ],
+    "collections": [
+      {
+        "id": "64c103b587712d554fab2917",
+        "title": "Tops",
+        "url": "#"
+      }
+    ],
+    "products": [
+      {
+        "id": "64c103b54d63d604eae8bb52",
+        "title": "Essentials Women Slim-Fit Tank",
+        "brand": "GAP",
+        "price": "$5.50",
+        "image": "https://picsum.photos/182/264"
+      },
+      {
+        "id": "64c103b573b0a1b078fa483d",
+        "title": "Top Men Slim-Fit",
+        "brand": "Gucci",
+        "price": "$6.68",
+        "image": "https://picsum.photos/182/264"
+      },
+      {
+        "id": "64c103b52a4126b78c47dad5",
+        "title": "Fruit of the Loom Girls Top",
+        "brand": "Gucci",
+        "price": "$25.54",
+        "image": "https://picsum.photos/182/264"
+      }
+    ]
+  },
+  {
+    "id": "64c103b52c03c2687953b175",
+    "keyword": "top tan",
+    "suggestionTerms": [
+      {
+        "term": "top tank with bra",
+        "url": "#"
+      },
+      {
+        "term": "top tank for woman",
+        "url": "#"
+      },
+      {
+        "term": "top tank for men",
+        "url": "#"
+      },
+      {
+        "term": "top tablets",
+        "url": "#"
+      }
+    ],
+    "collections": [
+      {
+        "id": "64c103b55581c4160990fcb8",
+        "title": "Tops",
+        "url": "#"
+      }
+    ],
+    "products": [
+      {
+        "id": "64c103b5924558d24e6e4f80",
+        "title": "Essentials Women Slim-Fit Tank",
+        "brand": "GAP",
+        "price": "$5.50",
+        "image": "https://picsum.photos/182/264"
+      },
+      {
+        "id": "64c103b5f9f6f6c6e721b0b4",
+        "title": "Top Men Slim-Fit",
+        "brand": "Gucci",
+        "price": "$6.68",
+        "image": "https://picsum.photos/182/264"
+      },
+      {
+        "id": "64c103b5dd99aef2b472bf31",
+        "title": "Fruit of the Loom Girls Top",
+        "brand": "Gucci",
+        "price": "$25.54",
+        "image": "https://picsum.photos/182/264"
+      }
+    ]
+  },
+  {
+    "id": "64c103b559a0bf3be610ad5d",
+    "keyword": "top tank",
+    "suggestionTerms": [
+      {
+        "term": "top tank with bra",
+        "url": "#"
+      },
+      {
+        "term": "top tank for woman",
+        "url": "#"
+      },
+      {
+        "term": "top tank for men",
+        "url": "#"
+      },
+      {
+        "term": "top tablets",
+        "url": "#"
+      }
+    ],
+    "collections": [
+      {
+        "id": "64c103b5664adae89c8f2795",
+        "title": "Tops",
+        "url": "#"
+      }
+    ],
+    "products": [
+      {
+        "id": "64c103b53b6260b4b8b2cf34",
+        "title": "Essentials Women Slim-Fit Tank",
+        "brand": "GAP",
+        "price": "$5.50",
+        "image": "https://picsum.photos/182/264"
+      },
+      {
+        "id": "64c103b51d82baeea7cc8a15",
+        "title": "Top Men Slim-Fit",
+        "brand": "Gucci",
+        "price": "$6.68",
+        "image": "https://picsum.photos/182/264"
+      },
+      {
+        "id": "64c103b5f74181e2cff77823",
+        "title": "Fruit of the Loom Girls Top",
+        "brand": "Gucci",
+        "price": "$25.54",
         "image": "https://picsum.photos/182/264"
       }
     ]
