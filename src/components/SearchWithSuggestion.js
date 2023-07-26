@@ -50,6 +50,18 @@ const SearchWithSuggestion = ({keyword = '', minKeywordLength = 1}) => {
         return <span>{parts.map(part => part.toLowerCase() === keyword.toLowerCase() ? <b>{part}</b> : part)}</span>;
     }
 
+    const getAmazonLinkFromTerm = (term) => {
+        const words = term.split(' ');
+        let link = 'https://www.amazon.com/s?k='
+        for (let i = 0; i < words.length; i++) {
+            if (i === words.length - 1) {
+                link += words[i];
+                return link;
+            }
+            link += words[i] + "+";
+        }
+    }
+
     return (
         <div className="translate-y-1/6">
             <div className="relative w-96 max-w-lg">
@@ -64,7 +76,7 @@ const SearchWithSuggestion = ({keyword = '', minKeywordLength = 1}) => {
 
                         {isShowSuggestion && suggestions.map((suggest, index) =>
                             <div key={index} className="cursor-pointer py-2 px-3 hover:bg-slate-100">
-                                <a href={suggest.url} className="text-sm text-gray-500">{getHighlightedText(suggest.term)}</a>
+                                <a href={getAmazonLinkFromTerm(suggest.term)} className="text-sm text-gray-500">{getHighlightedText(suggest.term)}</a>
                             </div>
                         )}
                         {collections.length > 0 && <div className="flex flex-row flex-auto justify-between cursor-pointer py-2 px-2 bg-slate-100"
