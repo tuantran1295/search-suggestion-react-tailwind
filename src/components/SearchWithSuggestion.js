@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 import searchResult from "../json/SearchResult.json"
 import {BiDownArrow, BiUpArrow} from "react-icons/bi";
 
-const SearchWithSuggestion = ({keyword = '',minKeywordLength = 1}) => {
+const SearchWithSuggestion = ({keyword = '', minKeywordLength = 1}) => {
 
     const [suggestions, setSuggestions] = useState([]);
     const [collections, setCollections] = useState([]);
@@ -53,39 +53,38 @@ const SearchWithSuggestion = ({keyword = '',minKeywordLength = 1}) => {
     return (
         <div className="translate-y-1/6">
             <div className="relative w-96 max-w-lg">
-
                 {keyword.length >= minKeywordLength &&
                     <div className="max-h-[90vh] overflow-y-auto absolute mt-2 w-full rounded-md bg-white">
-                        <div className="flex flex-row flex-auto justify-between cursor-pointer py-2 px-2 bg-slate-100"
+                        {suggestions.length > 0 && <div className="flex flex-row flex-auto justify-between cursor-pointer py-2 px-2 bg-slate-100"
                              onClick={toggleShowSuggest}
                         >
                             <p className="text-sm font-medium text-gray-300 uppercase">Suggestions</p>
                             {isShowSuggestion ? <BiUpArrow className="text-gray-400"/> : <BiDownArrow className="text-gray-400"/>}
-                        </div>
+                        </div>}
 
                         {isShowSuggestion && suggestions.map((suggest, index) =>
                             <div key={index} className="cursor-pointer py-2 px-3 hover:bg-slate-100">
                                 <p className="text-sm text-gray-500">{getHighlightedText(suggest.term)}</p>
                             </div>
                         )}
-                        <div className="flex flex-row flex-auto justify-between cursor-pointer py-2 px-2 bg-slate-100"
+                        {collections.length > 0 && <div className="flex flex-row flex-auto justify-between cursor-pointer py-2 px-2 bg-slate-100"
                              onClick={toggleShowCollect}
                         >
                             <p className="text-sm font-medium text-gray-300 uppercase">Collections</p>
                             {isShowCollection ? <BiUpArrow className="text-gray-400"/> : <BiDownArrow className="text-gray-400"/>}
-                        </div>
+                        </div>}
 
                         {isShowCollection && collections.map((collect, index) =>
                             <div key={index} className="cursor-pointer py-2 px-3 hover:bg-slate-100">
                                 <p className="text-sm text-gray-500">{getHighlightedText(collect.title)}</p>
                             </div>
                         )}
-                        <div className="flex flex-row flex-auto justify-between cursor-pointer py-2 px-2 bg-slate-100"
+                        {products.length > 0 && <div className="flex flex-row flex-auto justify-between cursor-pointer py-2 px-2 bg-slate-100"
                              onClick={toggleShowProduct}
                         >
                             <p className="text-sm font-medium text-gray-300 uppercase">Products</p>
                             {isShowProduct ? <BiUpArrow className="text-gray-400"/> : <BiDownArrow className="text-gray-400"/>}
-                        </div>
+                        </div>}
 
                         {isShowProduct && products.map((product, index) =>
                             <div key={index} className="flex flex-row flex-auto hover:bg-slate-100">
