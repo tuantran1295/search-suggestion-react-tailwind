@@ -8,13 +8,10 @@ function App() {
 
     return (
         <div className="App">
-            <div
-                className="flex min-h-screen justify-center overflow-hidden bg-gradient-to-br from-sky-500 via-teal-300 to-cyan-500">
+            <div className="flex min-h-screen justify-center overflow-hidden bg-gradient-to-br from-sky-500 via-teal-300 to-cyan-500">
                 <div className="translate-y-1/6">
                     <div className="relative w-96 max-w-lg">
-                        <form>
-                            <div
-                                className="flex justify-between overflow-hidden rounded-md bg-white shadow shadow-black/20">
+                            <div className="flex justify-between overflow-hidden rounded-md bg-white shadow shadow-black/20">
                                 <input type="text"
                                        className="block w-full flex-1 py-2 px-3 focus:outline-none"
                                        placeholder="Search Product..."
@@ -29,7 +26,6 @@ function App() {
                                     />
                                 </span>
                             </div>
-                        </form>
                         <SearchWithSuggestion
                             keyword={searchKeyword}
                             minKeywordLength={1}
