@@ -32,10 +32,7 @@ The SearchWithSuggestion component has two prop:
 * minKeywordLength:  the number of character that makes the Suggestion display when typing, default: 1.
 
 You could turn on/off the display of each block in the Suggestion result by click on the block header.
-Make from React and Tailwind with love <3
 ### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Clone the repo
    ```sh
@@ -56,5 +53,7 @@ _Below is an example of how you can instruct your audience on installing and set
 Tran Quoc Tuan - tuantran1245@gmail.com
 
 Project Link: [https://github.com/tuantran1295/search-suggestion-react-tailwind](https://github.com/tuantran1295/search-suggestion-react-tailwind)
+
+Make from React and Tailwind with love <3
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
