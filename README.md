@@ -13,7 +13,7 @@
     <img src="public/logo512.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Boost Commerce Front End Test</h3>
+<h3 align="center">E Commerce Front End Template</h3>
 
   <p align="center">
     Search box with suggestion and awesome feature
